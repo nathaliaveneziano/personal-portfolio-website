@@ -4,27 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Build a Complete Personal Portfolio Website Using Only HTML And CSS</title>
+    <title>
+      Build a Complete Personal Portfolio Website Using Only HTML And CSS
+    </title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
   </head>
 
   <body>
     <!-- Hero Section -->
     <header class="hero">
       <nav>
+        <input type="checkbox" id="check" />
+        <label for="check">
+          <i class="fa-solid fa-bars menu-icon"></i>
+          <i class="fa-sharp fa-solid fa-xmark cancel-icon"></i>
+        </label>
         <h1 class="logo">Portfo<span>lio</span></h1>
         <ul>
           <li><a href="#">Home</a></li>
@@ -45,8 +50,7 @@
               type="email"
               name="email"
               id="email"
-              placeholder="Enter Your E-mail"
-            />
+              placeholder="Enter Your E-mail" />
             <input type="submit" name="submit" value="Let's Start" />
           </form>
         </section>
@@ -125,7 +129,10 @@
     <!-- Footer -->
     <footer>
       <p>John Doe</p>
-      <p>For more HTML, CSS and coding tutorial - please click on the link below to subscribe to my channel:</p>
+      <p>
+        For more HTML, CSS and coding tutorial - please click on the link below
+        to subscribe to my channel:
+      </p>
       <div class="social">
         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
