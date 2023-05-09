@@ -1,4 +1,4 @@
-# Build a Complete Personal Portfolio Website Using Only HTML And CSS
+# Complete Personal Portfolio Website
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nathaliaveneziano/personal-portfolio-website?style=for-the-badge)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/nathaliaveneziano/personal-portfolio-website?style=for-the-badge)
@@ -16,23 +16,18 @@
 
 - [Sobre o projeto](#-sobre-o-projeto)
 - [Tecnologias](#-tecnologias)
-  - [Utilitários](#utilitário)
-- [Layout](#-layout)
-  - [Mobile](#mobile)
-  - [Web](#web)
+  - [WebSite](#website)
+  - [Utilitários](#utilitários)
+- [Layouts](#-layouts)
 - [Como executar o projeto](#-como-executar-o-projeto)
   - [Pré-requisitos](#pré-requisitos)
-  - [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
-  - [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
-- [Contribuidores](#-contribuidores)
-- [Como contribuir no projeto](#-como-contribuir-no-projeto)
 - [Autor](#-autor)
-- [Licença](#user-content--licença)
+- [Licença](#-licença)
 <!--te-->
 
 ## 💻 Sobre o projeto
 
-Build a Complete Personal Portfolio Website Using Only HTML And CSS é um projeto que utiliza apenas HTML e CSS para criar um site no estilo portfólio com 5 seções:
+Build a Complete Personal Portfolio Website é um projeto que utiliza apenas HTML e CSS para criar um site no estilo portfólio com 5 seções:
 - Hero ou Header;
 - About me;
 - Our Services;
@@ -53,27 +48,40 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Ícones: **[CDNJS - Font Awesome ](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)**
 - Fontes: **[Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)**
 
-<br>
-
----
-
-<br>
-
 ## 🎨 Layout
 
-### Mobile
+<table>
+  <thead>
+    <tr>
+      <th>Mobile</th>
+      <th>Tablet</th>
+      <th>Web</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="vertical-align:top">
+      <td><img src="./img/mobile.png" alt=""></td>
+      <td><img src="./img/tablet.png" alt=""></td>
+      <td><img src="./img/desktop.png" alt=""></td>
+    </tr>
+  </tbody>
+</table>
 
-![Mobile](./img/mobile.png)
-
-### Web
-
-![Website](./img/desktop.png)
-
-<br>
-
----
-
-<br>
+### **Menu Responsivo**
+<table>
+  <thead>
+    <tr>
+      <th>Mobile</th>
+      <th>Tablet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="vertical-align:top">
+      <td><img src="./img/mobile-1.png" alt=""></td>
+      <td><img src="./img/tablet-1.png" alt=""></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🚀 Como executar o projeto
 
@@ -112,7 +120,7 @@ $ code .
 Com o projeto aberto, rode o Live Server para ver o projeto em tempo real. Existem 3 formas de rodar o Live Server:
 - Clique na barra inferior direita em `Live Server`
 - Botão direito no arquivo `index.html` e selecione `Open with Live Server`
-- Através do atalho ALT+L ALT+O e
+- Através do atalho ALT+L ALT+O
 
 Será aberta uma nova guia no seu navegador de preferencia, normalmente ele abre em `http://localhost:5500/`.
 
